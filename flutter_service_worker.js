@@ -4,10 +4,9 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "15235b5108d6a877ef74fe3317a96bf7",
-"index.html": "346165776640f153918d66cca75b6dc1",
-"/": "346165776640f153918d66cca75b6dc1",
+"index.html": "370572c524b32aff3c8c88c87f66cc86",
+"/": "370572c524b32aff3c8c88c87f66cc86",
 "main.dart.js": "3df37ad560895dcb286ad9373d1f50ab",
-"404.html": "0a27a4163254fc8fce870c8cc3a3f94f",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
@@ -52,11 +51,7 @@ const RESOURCES = {
 "assets/assets/images/maya.jpeg": "27cd80ff2ac3985b4184ef0a0d323186",
 "assets/assets/images/yogi.jpeg": "be9d0ec726eb631cb93054d3e3f50ec1",
 "assets/assets/images/gandhi.jpeg": "181e6d43dd14716b398e463261320518",
-"assets/assets/images/owasi.jpeg": "2e2c3b52495b6c58dcb02fd0810e6e6b",
-"canvaskit/canvaskit.js": "43fa9e17039a625450b6aba93baf521e",
-"canvaskit/profiling/canvaskit.js": "f3bfccc993a1e0bfdd3440af60d99df4",
-"canvaskit/profiling/canvaskit.wasm": "a9610cf39260f60fbe7524a785c66101",
-"canvaskit/canvaskit.wasm": "04ed3c745ff1dee16504be01f9623498"
+"assets/assets/images/owasi.jpeg": "2e2c3b52495b6c58dcb02fd0810e6e6b"
 };
 
 // The application shell files that are downloaded before a service worker can
