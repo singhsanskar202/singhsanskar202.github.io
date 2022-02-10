@@ -77678,7 +77678,7 @@ VU(a){var s=0,r=A.K(t.H),q,p=2,o,n=[],m=this,l,k,j,i,h,g
 var $async$v2=A.E(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:h=B.c.gK(A.aQr())
 h="https://"+h.a.c.d+".firebaseapp.com/__/auth/handler"
-l=new A.a7y("683642339193-ero8aljkfh3don9eiak9ed545odsankf.apps.googleusercontent.com",h,new A.a7z(new A.eP(null,null,t.io)))
+l=new A.a7y("683642339193-6j1hieot6hn1r6muvl78omlkp4amuhl2.apps.googleusercontent.com",h,new A.a7z(new A.eP(null,null,t.io)))
 p=4
 m.sm(0,B.jV)
 k=A.b1("credential")
