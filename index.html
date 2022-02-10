@@ -33,11 +33,36 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
+  <script src="https://www.gstatic.com/firebasejs/ui/6.0.0/firebase-ui-auth.js"></script>
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
+       <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.6/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.6/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyA6tVFedu9c7F0_BADsWydNRKpI2iTlBzk",
+          authDomain: "chatapp-friendly.firebaseapp.com",
+          databaseURL: "https://chatapp-friendly-default-rtdb.firebaseio.com",
+          projectId: "chatapp-friendly",
+          storageBucket: "chatapp-friendly.appspot.com",
+          messagingSenderId: "683642339193",
+          appId: "1:683642339193:web:093aed4f690c695b83f9a8",
+          measurementId: "G-BLD0DE1CZJ"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
   <script>
-    var serviceWorkerVersion = '4166039205';
+    var serviceWorkerVersion = '2414876777';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
